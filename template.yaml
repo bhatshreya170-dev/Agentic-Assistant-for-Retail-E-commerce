@@ -1,0 +1,98 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: agentic-assistance-ecommerce-template
+  title: Agentic E-commerce Assistant Template
+  description: A template for creating a new AI-powered e-commerce shopping assistant with a React frontend and a Python/LangChain backend.
+  tags:
+    - ai
+    - python
+    - react
+    - recommended
+spec:
+  owner: user:default/bhatshreya170
+  type: service
+
+  # These are the parameters that will be collected from the user in the Backstage UI.
+  parameters:
+    - title: Component Details
+      required:
+        - name
+        - owner
+      properties:
+        name:
+          title: Component Name
+          type: string
+          description: A unique name for the new component (e.g., my-new-agent).
+          ui:field: EntityNamePicker
+        description:
+          title: Description
+          type: string
+          description: A short description of the component's purpose.
+        owner:
+          title: Owner
+          type: string
+          description: The owner of the component.
+          ui:field: OwnerPicker
+          ui:options:
+            allowedKinds:
+              - Group
+              - User
+
+    - title: Repository Details
+      required:
+        - repoUrl
+      properties:
+        repoUrl:
+          title: Repository Location
+          type: string
+          ui:field: RepoUrlPicker
+          ui:options:
+            allowedHosts:
+              - github.com
+
+  # These are the steps that Backstage will perform to create the new project.
+  steps:
+    # 1. Fetch the template skeleton from the same repository.
+    - id: fetch-skeleton
+      name: Fetch Skeleton
+      action: fetch:template
+      input:
+        url: ./skeleton
+        copyWithoutRender:
+          # We don't want to process binary files or large directories
+          - .github/
+          - frontend/public/
+          - frontend/src/logo/
+        values:
+          name: ${{ parameters.name }}
+          description: ${{ parameters.description }}
+          owner: ${{ parameters.owner }}
+          repoUrl: ${{ parameters.repoUrl }}
+
+    # 2. Publish the templated files to a new GitHub repository.
+    - id: publish
+      name: Publish to GitHub
+      action: publish:github
+      input:
+        allowedHosts: ['github.com']
+        description: 'Repository for ${{ parameters.name }}'
+        repoUrl: ${{ parameters.repoUrl }}
+        defaultBranch: main
+
+    # 3. Register the new component in the Backstage catalog.
+    - id: register
+      name: Register Component
+      action: catalog:register
+      input:
+        repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
+        catalogInfoPath: '/catalog-info.yaml'
+
+  # This section defines the output that is shown to the user after the template runs.
+  output:
+    links:
+      - title: Repository
+        url: ${{ steps.publish.output.remoteUrl }}
+      - title: Open in catalog
+        icon: catalog
+        entityRef: ${{ steps.register.output.entityRef }}

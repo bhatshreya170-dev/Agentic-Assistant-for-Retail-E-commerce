@@ -1,0 +1,35 @@
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# --- Backend Files (inside skeleton) ---
+
+# Environment variables
+skeleton/backend/.env
+
+# Python virtual environment and cache
+skeleton/backend/venv/
+skeleton/backend/.venv/
+skeleton/backend/__pycache__/
+skeleton/backend/*.pyc
+
+# --- Frontend Files (inside skeleton) ---
+
+# Dependencies
+skeleton/frontend/node_modules/
+
+# Build output
+skeleton/frontend/build/
+
+# Logs
+skeleton/frontend/npm-debug.log*
+skeleton/frontend/yarn-debug.log*
+skeleton/frontend/yarn-error.log*
+
+# Environment variables
+skeleton/frontend/.env*
+!skeleton/frontend/.env.example

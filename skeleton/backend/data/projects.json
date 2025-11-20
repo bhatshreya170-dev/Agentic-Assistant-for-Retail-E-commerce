@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Spooky Pumpkin Painting",
+    "trend": "Halloween",
+    "description": "A classic Halloween activity! Decorate a pumpkin to make it spooky or silly.",
+    "ingredients": [
+      {
+        "item": "Orange Paint",
+        "category": "paint"
+      },
+      {
+        "item": "Black Paint",
+        "category": "paint"
+      },
+      {
+        "item": "Paint Brush Set",
+        "category": "brushes"
+      },
+      {
+        "item": "Googly Eyes",
+        "category": "decorations"
+      },
+      {
+        "item": "Orange Glitter Glue",
+        "category": "glue"
+      }
+    ],
+    "theme": "Halloween",
+    "steps": [
+      "1. Choose a pumpkin and clean it.",
+      "2. Paint the pumpkin with orange and black paint.",
+      "3. Add googly eyes and other decorations.",
+      "4. Let it dry."
+    ],
+    "difficulty": "Beginner",
+    "time_needed": "About 30 minutes"
+  },
+  {
+    "name": "Build a Spooky Town Display",
+    "trend": "Halloween",
+    "description": "Create a miniature haunted village with buildings, figurines, and accessories.",
+    "ingredients": [
+      {
+        "item": "Spooky Building",
+        "category": "spooky_town_building"
+      },
+      {
+        "item": "Spooky Figurine",
+        "category": "spooky_town_figurine"
+      },
+      {
+        "item": "Spooky Accessory",
+        "category": "spooky_town_accessory"
+      },
+      {
+        "item": "Moss Mat",
+        "category": "spooky_town_accessory"
+      }
+    ],
+    "theme": "Halloween",
+    "steps": [
+      "1. Choose a base for your display.",
+      "2. Arrange the spooky buildings.",
+      "3. Add figurines and accessories.",
+      "4. Use a moss mat to create a spooky landscape."
+    ],
+    "difficulty": "Intermediate",
+    "time_needed": "About 2 hours"
+  },
+  {
+    "name": "Halloween Crafting Fun for Kids",
+    "trend": "Halloween",
+    "description": "Engage kids with fun and easy Halloween-themed craft projects.",
+    "ingredients": [
+      {
+        "item": "Kids Craft Kit",
+        "category": "kids_craft_kit"
+      },
+      {
+        "item": "Kids Painting Kit",
+        "category": "kids_painting_kit"
+      },
+      {
+        "item": "Kids Sticker Book",
+        "category": "kids_sticker_book"
+      },
+      {
+        "item": "Kids Toy",
+        "category": "kids_toy"
+      }
+    ],
+    "theme": "Halloween",
+    "steps": [
+      "1. Choose a craft kit.",
+      "2. Follow the instructions in the kit.",
+      "3. Use stickers and other decorations to personalize your craft.",
+      "4. Have fun!"
+    ],
+    "difficulty": "Beginner",
+    "time_needed": "About 1 hour"
+  },
+  {
+    "name": "Festive Holiday Ornaments",
+    "trend": "Christmas",
+    "description": "Create beautiful, personalized ornaments for your tree or as gifts.",
+    "ingredients": [
+      {
+        "item": "Clear Glass Ornaments",
+        "category": "ornaments"
+      },
+      {
+        "item": "Red Paint",
+        "category": "paint"
+      },
+      {
+        "item": "Green Paint",
+        "category": "paint"
+      },
+      {
+        "item": "Fake Snow Flakes",
+        "category": "decorations"
+      },
+      {
+        "item": "Red Velvet Ribbon",
+        "category": "ribbon"
+      }
+    ],
+    "theme": "Christmas",
+    "steps": [
+      "1. Take a clear glass ornament.",
+      "2. Use red and green paint to create a festive design.",
+      "3. Add fake snow flakes for a wintery effect.",
+      "4. Attach a ribbon to hang the ornament."
+    ],
+    "difficulty": "Beginner",
+    "time_needed": "About 45 minutes"
+  },
+  {
+    "name": "Decorate Your Dream Christmas Tree",
+    "trend": "Christmas",
+    "description": "Choose and decorate the perfect Christmas tree for your home.",
+    "ingredients": [
+      {
+        "item": "Christmas Tree",
+        "category": "christmas_tree"
+      },
+      {
+        "item": "Glass Ornaments",
+        "category": "ornaments"
+      },
+      {
+        "item": "Ribbon",
+        "category": "ribbon"
+      },
+      {
+        "item": "Paint",
+        "category": "paint"
+      }
+    ],
+    "theme": "Christmas",
+    "steps": [
+      "1. Set up your Christmas tree.",
+      "2. Add lights to the tree.",
+      "3. Hang ornaments on the branches.",
+      "4. Add ribbon and other decorations."
+    ],
+    "difficulty": "Easy",
+    "time_needed": "About 1.5 hours"
+  },
+  {
+    "name": "Creative Christmas Crafts",
+    "trend": "Christmas",
+    "description": "Get into the holiday spirit with fun and festive Christmas craft projects.",
+    "ingredients": [
+      {
+        "item": "Christmas Diamond Art Kit",
+        "category": "christmas_diamond_art"
+      },
+      {
+        "item": "Paint Set",
+        "category": "paint_set"
+      },
+      {
+        "item": "Christmas Craft Supply",
+        "category": "christmas_craft_supply"
+      },
+      {
+        "item": "Christmas Ornament Base",
+        "category": "christmas_ornament_base"
+      }
+    ],
+    "theme": "Christmas",
+    "steps": [
+      "1. Choose a Christmas craft kit.",
+      "2. Follow the instructions to create your craft.",
+      "3. Use paint and other supplies to decorate your creation.",
+      "4. Display your festive craft."
+    ],
+    "difficulty": "Intermediate",
+    "time_needed": "About 1 hour"
+  },
+  {
+    "name": "Summer Tie-Dye Party",
+    "trend": "Summer Fun",
+    "description": "Make vibrant, one-of-a-kind tie-dye shirts, perfect for sunny days.",
+    "ingredients": [
+      {
+        "item": "Rainbow Tie-Dye Kit",
+        "category": "kit"
+      },
+      {
+        "item": "Plain White T-Shirt",
+        "category": "apparel"
+      },
+      {
+        "item": "Seashell Collection",
+        "category": "decorations"
+      },
+      {
+        "item": "Friendship Bracelet String",
+        "category": "craft_supplies"
+      }
+    ],
+    "theme": "Summer Fun",
+    "steps": [
+      "1. Get a plain white t-shirt.",
+      "2. Use the tie-dye kit to create a colorful pattern.",
+      "3. Let the dye set and then rinse the shirt.",
+      "4. Wear your unique creation!"
+    ],
+    "difficulty": "Beginner",
+    "time_needed": "About 1 hour"
+  },
+  {
+    "name": "Summer Fun Crafts for Kids",
+    "trend": "Summer Fun",
+    "description": "Keep kids entertained with creative and engaging summer-themed craft activities.",
+    "ingredients": [
+      {
+        "item": "Kids Bead Kit",
+        "category": "kids_bead_kit"
+      },
+      {
+        "item": "Kids Painting Kit",
+        "category": "kids_painting_kit"
+      },
+      {
+        "item": "Kids Craft Kit",
+        "category": "kids_craft_kit"
+      },
+      {
+        "item": "Kids Craft Tool",
+        "category": "kids_craft_tool"
+      }
+    ],
+    "theme": "Summer Fun",
+    "steps": [
+      "1. Choose a summer-themed craft kit.",
+      "2. Use beads, paint, and other supplies to create your craft.",
+      "3. Follow the instructions in the kit.",
+      "4. Enjoy your summer creation!"
+    ],
+    "difficulty": "Easy",
+    "time_needed": "About 45 minutes"
+  }
+]

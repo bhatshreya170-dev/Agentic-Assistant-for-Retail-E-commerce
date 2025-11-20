@@ -1,0 +1,713 @@
+[
+  {
+    "sku": "PNT-01",
+    "name": "Orange Paint",
+    "price": 2.5,
+    "margin": "high",
+    "velocity": "high",
+    "imageUrl": "/images/orange_paint.jpg",
+    "category": "paint"
+  },
+  {
+    "sku": "PNT-02",
+    "name": "Black Paint",
+    "price": 2.5,
+    "margin": "high",
+    "velocity": "high",
+    "imageUrl": "/images/black_paint.jpg",
+    "category": "paint"
+  },
+  {
+    "sku": "PNT-03",
+    "name": "White Paint",
+    "price": 2.5,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/white_paint.jpg",
+    "category": "paint"
+  },
+  {
+    "sku": "BR-01",
+    "name": "Paint Brush Set",
+    "price": 5.0,
+    "margin": "high",
+    "velocity": "high",
+    "imageUrl": "/images/paint_brush_set.jpg",
+    "category": "brushes"
+  },
+  {
+    "sku": "GGL-01",
+    "name": "Googly Eyes (Small)",
+    "price": 1.5,
+    "margin": "high",
+    "velocity": "high",
+    "imageUrl": "/images/googly_eyes_small.jpg",
+    "category": "decorations"
+  },
+  {
+    "sku": "GGL-02",
+    "name": "Googly Eyes (Large)",
+    "price": 2.5,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/googly_eyes_large.jpg",
+    "category": "decorations"
+  },
+  {
+    "sku": "SNW-FLK-01",
+    "name": "Fake Snow Flakes (16oz)",
+    "price": 4.5,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/fake_snow_flakes.jpg",
+    "category": "decorations"
+  },
+  {
+    "sku": "GLT-01",
+    "name": "Orange Glitter Glue",
+    "price": 1.99,
+    "margin": "low",
+    "velocity": "low",
+    "imageUrl": "/images/orange_glitter_glue.jpg",
+    "category": "glue"
+  },
+  {
+    "sku": "GLT-02",
+    "name": "Clear Craft Glue",
+    "price": 1.2,
+    "margin": "high",
+    "velocity": "high",
+    "imageUrl": "/images/clear_craft_glue.jpg",
+    "category": "glue"
+  },
+  {
+    "sku": "ORN-GLS-01",
+    "name": "Clear Glass Ornaments (4-pack)",
+    "price": 5.99,
+    "margin": "high",
+    "velocity": "high",
+    "imageUrl": "/images/clear_glass_ornaments.jpg",
+    "category": "ornaments"
+  },
+  {
+    "sku": "RIB-RED-99",
+    "name": "Red Velvet Ribbon (3ft)",
+    "price": 1.49,
+    "margin": "low",
+    "velocity": "low",
+    "imageUrl": "/images/red_velvet_ribbon.jpg",
+    "category": "ribbon"
+  },
+  {
+    "sku": "RIB-GLD-01",
+    "name": "Gold Metallic Ribbon (3ft)",
+    "price": 1.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/gold_metallic_ribbon.jpg",
+    "category": "ribbon"
+  },
+  {
+    "sku": "TIE-DYE-KIT-01",
+    "name": "Rainbow Tie-Dye Kit",
+    "price": 15.99,
+    "margin": "high",
+    "velocity": "high",
+    "imageUrl": "/images/rainbow_tie_dye_kit.jpg",
+    "category": "kit"
+  },
+  {
+    "sku": "SHT-WHT-01",
+    "name": "Plain White T-Shirt (Medium)",
+    "price": 4.99,
+    "margin": "high",
+    "velocity": "high",
+    "imageUrl": "/images/plain_white_t_shirt.jpg",
+    "category": "apparel"
+  },
+  {
+    "sku": "BRC-STR-99",
+    "name": "Friendship Bracelet String (Pastel)",
+    "price": 2.99,
+    "margin": "low",
+    "velocity": "low",
+    "imageUrl": "/images/friendship_bracelet_string.jpg",
+    "category": "craft_supplies"
+  },
+  {
+    "sku": "BRC-STR-01",
+    "name": "Friendship Bracelet String (Bright)",
+    "price": 2.99,
+    "margin": "high",
+    "velocity": "medium",
+    "imageUrl": "/images/friendship_bracelet_string_bright.jpg",
+    "category": "craft_supplies"
+  },
+  {
+    "sku": "TREE-001",
+    "name": "7ft. Pre-Lit Pencil Artificial Christmas Tree, Warm White Mini LED Lights by Ashland®",
+    "price": 89.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/7ft_prelit_pencil_ashland.jpg",
+    "category": "christmas_tree"
+  },
+  {
+    "sku": "TREE-002",
+    "name": "7.5ft. Pre-Lit Colorado Pine Artificial Christmas Tree, Dual-Color LED Lights",
+    "price": 164.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/7.5ft_prelit_colorado_pine.jpg",
+    "category": "christmas_tree"
+  },
+  {
+    "sku": "TREE-003",
+    "name": "4ft. Pre-Lit Lakewood Spruce Artificial Christmas Tree, Warm White LED Lights by Ashland®",
+    "price": 34.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/4ft_prelit_lakewood_ashland.jpg",
+    "category": "christmas_tree"
+  },
+  {
+    "sku": "LEMAX-001",
+    "name": "Lemax® Spooky Town® The Air & Space Novelties Hangar Museum",
+    "price": 116.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/lemax_air_space_museum.jpg",
+    "category": "spooky_town_building"
+  },
+  {
+    "sku": "LEMAX-002",
+    "name": "Lemax® Spooky Town® The Count's Candy Corn Factory",
+    "price": 119.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/lemax_candy_corn_factory.jpg",
+    "category": "spooky_town_building"
+  },
+  {
+    "sku": "LEMAX-003",
+    "name": "Lemax® Spooky Town® Petrified Forest Tree House",
+    "price": 53.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/lemax_petrified_forest_tree_house.jpg",
+    "category": "spooky_town_building"
+  },
+  {
+    "sku": "LEMAX-004",
+    "name": "Lemax® Spooky Town® Wedding Party",
+    "price": 74.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/lemax_wedding_party.jpg",
+    "category": "spooky_town_figurine"
+  },
+  {
+    "sku": "LEMAX-011",
+    "name": "Lemax® Spooky Town® Lost in the Lagoon",
+    "price": 7.79,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/lemax_lost_in_lagoon.jpg",
+    "category": "spooky_town_figurine"
+  },
+  {
+    "sku": "LEMAX-015",
+    "name": "Lemax® Spooky Town® The Casket-Monger",
+    "price": 29.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/lemax_casket_monger.jpg",
+    "category": "spooky_town_figurine"
+  },
+  {
+    "sku": "LEMAX-007",
+    "name": "Lemax® Spooky Town® Welcome to Spooky Town Sign",
+    "price": 11.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/lemax_welcome_sign.jpg",
+    "category": "spooky_town_accessory"
+  },
+  {
+    "sku": "LEMAX-008",
+    "name": "Lemax® Spooky Town® Chained Spooky Tree",
+    "price": 17.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/lemax_chained_spooky_tree.jpg",
+    "category": "spooky_town_accessory"
+  },
+  {
+    "sku": "LEMAX-010",
+    "name": "Lemax® Spooky Town® Gates to the Underworld",
+    "price": 53.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/lemax_gates_underworld.jpg",
+    "category": "spooky_town_accessory"
+  },
+  {
+    "sku": "KID-001",
+    "name": "Halloween Craft Box by Creatology™",
+    "price": 6.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/halloween_craft_box.jpg",
+    "category": "kids_craft_kit"
+  },
+  {
+    "sku": "KID-009",
+    "name": "3D Jack-O'-Lantern Ornament Kit by Creatology™",
+    "price": 6.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/3d_jack_o_lantern_ornament_kit.jpg",
+    "category": "kids_craft_kit"
+  },
+  {
+    "sku": "KID-010",
+    "name": "Bake-It Bat Suncatcher Kit by Creatology™",
+    "price": 3.49,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/bake_it_bat_suncatcher_kit.jpg",
+    "category": "kids_craft_kit"
+  },
+  {
+    "sku": "KID-002",
+    "name": "Cat & Jack-o'-Lanterns Canvas Painting Kit by Creatology™",
+    "price": 5.59,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/cat_jack_o_lanterns_canvas_kit.jpg",
+    "category": "kids_painting_kit"
+  },
+  {
+    "sku": "KID-011",
+    "name": "Glow-in-the-Dark Cauldron Canvas Painting Kit by Creatology™",
+    "price": 5.59,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/glow_cauldron_canvas_kit.jpg",
+    "category": "kids_painting_kit"
+  },
+  {
+    "sku": "KID-019",
+    "name": "Boo Pumpkins Canvas Painting Kit by Creatology™",
+    "price": 5.59,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/boo_pumpkins_canvas_kit.jpg",
+    "category": "kids_painting_kit"
+  },
+  {
+    "sku": "KID-003",
+    "name": "Sweet & Spooky Color-In Poster by Creatology™",
+    "price": 3.49,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/sweet_spooky_color_in_poster.jpg",
+    "category": "kids_coloring"
+  },
+  {
+    "sku": "KID-004",
+    "name": "Haunted House Sticker Book by Creatology™",
+    "price": 1.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/haunted_house_sticker_book.jpg",
+    "category": "kids_sticker_book"
+  },
+  {
+    "sku": "KID-014",
+    "name": "Sweet & Spooky Sticker Book by Creatology™",
+    "price": 1.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/sweet_spooky_sticker_book.jpg",
+    "category": "kids_sticker_book"
+  },
+  {
+    "sku": "KID-021",
+    "name": "Glow-in-the-Dark Sticker Rolls by Creatology™",
+    "price": 4.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/glow_sticker_rolls.jpg",
+    "category": "kids_sticker_book"
+  },
+  {
+    "sku": "KID-005",
+    "name": "Reusable Ghost Tote Bag by Celebrate It™",
+    "price": 1.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/reusable_ghost_tote.jpg",
+    "category": "kids_tote_bag"
+  },
+  {
+    "sku": "KID-007",
+    "name": "Reusable Bats Tote Bag by Celebrate It™",
+    "price": 1.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/reusable_bats_tote.jpg",
+    "category": "kids_tote_bag"
+  },
+  {
+    "sku": "KID-006",
+    "name": "Trick-or-Treat Stamps by Creatology™",
+    "price": 2.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/trick_or_treat_stamps.jpg",
+    "category": "kids_stamps"
+  },
+  {
+    "sku": "KID-037",
+    "name": "Sweet & Spooky Stamps by Creatology™",
+    "price": 2.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/sweet_spooky_stamps.jpg",
+    "category": "kids_stamps"
+  },
+  {
+    "sku": "KID-008",
+    "name": "Jack-o'-Lantern Shaped Canvases, 2ct. by Creatology™",
+    "price": 3.49,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/jack_o_lantern_canvases.jpg",
+    "category": "kids_painting_surface"
+  },
+  {
+    "sku": "KID-012",
+    "name": "Pink Skull Bead Kit by Creatology™",
+    "price": 6.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/pink_skull_bead_kit.jpg",
+    "category": "kids_bead_kit"
+  },
+  {
+    "sku": "KID-022",
+    "name": "Pumpkin Bead Kit by Creatology™",
+    "price": 6.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/pumpkin_bead_kit.jpg",
+    "category": "kids_bead_kit"
+  },
+  {
+    "sku": "KID-025",
+    "name": "Pink Pumpkin Bead Kit by Creatology™",
+    "price": 6.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/pink_pumpkin_bead_kit.jpg",
+    "category": "kids_bead_kit"
+  },
+  {
+    "sku": "KID-013",
+    "name": "Ty Beanie Bouncers Orange Pumpkin",
+    "price": 5.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/ty_beanie_pumpkin.jpg",
+    "category": "kids_toy"
+  },
+  {
+    "sku": "KID-015",
+    "name": "Ty Beanie Babies Black Bat",
+    "price": 5.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/ty_beanie_bat.jpg",
+    "category": "kids_toy"
+  },
+  {
+    "sku": "KID-018",
+    "name": "Black Cat Magic Ball by Creatology™",
+    "price": 4.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/black_cat_magic_ball.jpg",
+    "category": "kids_toy"
+  },
+  {
+    "sku": "KID-016",
+    "name": "Trick-or-Treat Mini Hair Clips by Creatology™",
+    "price": 4.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/trick_or_treat_hair_clips.jpg",
+    "category": "kids_accessory"
+  },
+  {
+    "sku": "KID-030",
+    "name": "Sweet & Spooky Mini Clips by Creatology™",
+    "price": 4.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/sweet_spooky_mini_clips.jpg",
+    "category": "kids_accessory"
+  },
+  {
+    "sku": "KID-023",
+    "name": "Trick-or-Treat Pencils by Creatology™",
+    "price": 2.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/trick_or_treat_pencils.jpg",
+    "category": "kids_stationery"
+  },
+  {
+    "sku": "KID-035",
+    "name": "Green Monster Fuzzy Socks by Creatology™",
+    "price": 4.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/green_monster_fuzzy_socks.jpg",
+    "category": "kids_apparel"
+  },
+  {
+    "sku": "SUM-001",
+    "name": "Botanicals & Alphabet Bead Kit by Creatology™",
+    "price": 16.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/botanicals_alphabet_bead_kit.jpg",
+    "category": "kids_bead_kit"
+  },
+  {
+    "sku": "SUM-002",
+    "name": "Celestial & Alphabet Bead Kit by Creatology™",
+    "price": 16.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/celestial_alphabet_bead_kit.jpg",
+    "category": "kids_bead_kit"
+  },
+  {
+    "sku": "SUM-004",
+    "name": "Malibu Bead Kit by Creatology™",
+    "price": 16.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/malibu_bead_kit.jpg",
+    "category": "kids_bead_kit"
+  },
+  {
+    "sku": "SUM-003",
+    "name": "Color Zone® Paint Your Own Turtle Kit",
+    "price": 5.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/paint_your_own_turtle_kit.jpg",
+    "category": "kids_painting_kit"
+  },
+  {
+    "sku": "SUM-009",
+    "name": "Flowers Canvas Painting Kit by Creatology™",
+    "price": 7.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/flowers_canvas_painting_kit.jpg",
+    "category": "kids_painting_kit"
+  },
+  {
+    "sku": "SUM-016",
+    "name": "Go Team Canvas Painting Kit by Creatology™",
+    "price": 7.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/go_team_canvas_painting_kit.jpg",
+    "category": "kids_painting_kit"
+  },
+  {
+    "sku": "SUM-005",
+    "name": "Bead Design Board by Creatology™",
+    "price": 7.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/bead_design_board.jpg",
+    "category": "kids_craft_tool"
+  },
+  {
+    "sku": "SUM-007",
+    "name": "Braiding Board by Creatology™",
+    "price": 7.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/braiding_board.jpg",
+    "category": "kids_craft_tool"
+  },
+  {
+    "sku": "SUM-012",
+    "name": "Rainbow Loom® Wrapit Loom™",
+    "price": 17.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/rainbow_loom_wrapit_loom.jpg",
+    "category": "kids_craft_tool"
+  },
+  {
+    "sku": "SUM-006",
+    "name": "Plastic Lacing Kit by Creatology™",
+    "price": 29.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/plastic_lacing_kit.jpg",
+    "category": "kids_craft_kit"
+  },
+  {
+    "sku": "SUM-008",
+    "name": "Rainbow Loom® BFF Maker™ Friendship Bracelet Maker Kit",
+    "price": 11.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/rainbow_loom_bff_maker.jpg",
+    "category": "kids_craft_kit"
+  },
+  {
+    "sku": "SUM-011",
+    "name": "Rainbow Loom® Glitter Treasure Box™ Bracelet Kit",
+    "price": 17.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/rainbow_loom_glitter_treasure_box.jpg",
+    "category": "kids_craft_kit"
+  },
+  {
+    "sku": "SUM-017",
+    "name": "Wavy Pastel Plastic Chain Links by Creatology™",
+    "price": 5.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/wavy_pastel_plastic_chain_links.jpg",
+    "category": "kids_craft_supplies"
+  },
+  {
+    "sku": "XMAS-001",
+    "name": "8\" Ornament Wreath Diamond Art Kit by Make Market®",
+    "price": 14.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/8in_ornament_wreath_diamond_art_kit.jpg",
+    "category": "christmas_diamond_art"
+  },
+  {
+    "sku": "XMAS-002",
+    "name": "8\" Peppermint Plaid Wreath Diamond Art Kit by Make Market®",
+    "price": 14.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/8in_peppermint_plaid_wreath_diamond_art_kit.jpg",
+    "category": "christmas_diamond_art"
+  },
+  {
+    "sku": "XMAS-005",
+    "name": "Santa Suit Diamond Art Gift Tag Kit by Make Market®",
+    "price": 9.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/santa_suit_diamond_art_kit.jpg",
+    "category": "christmas_diamond_art"
+  },
+  {
+    "sku": "XMAS-003",
+    "name": "Acrylic Paint Art Set by Artist's Loft™",
+    "price": 49.99,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/acrylic_paint_art_set.jpg",
+    "category": "paint_set"
+  },
+  {
+    "sku": "XMAS-004",
+    "name": "DecoArt® Snow-Tex",
+    "price": 5.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/decoart_snow_tex.jpg",
+    "category": "christmas_craft_supply"
+  },
+  {
+    "sku": "XMAS-017",
+    "name": "FloraCraft® Diamond Dust Glitter Clear",
+    "price": 14.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/floracraft_diamond_dust_glitter.jpg",
+    "category": "christmas_craft_supply"
+  },
+  {
+    "sku": "XMAS-020",
+    "name": "Buttons Galore Candy Cane and Christmas Button Super Value Pack",
+    "price": 14.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/buttons_galore_candy_cane_buttons.jpg",
+    "category": "christmas_craft_supply"
+  },
+  {
+    "sku": "XMAS-007",
+    "name": "Wooden Gingerbread Men for Crafts, Wood DIY Christmas Ornaments",
+    "price": 11.38,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/wooden_gingerbread_men.jpg",
+    "category": "christmas_wood_craft"
+  },
+  {
+    "sku": "XMAS-010",
+    "name": "The Beadery® 2\" Mini Pearl Snowflake Holiday Beaded Ornament Kit",
+    "price": 24.99,
+    "margin": "medium",
+    "velocity": "low",
+    "imageUrl": "/images/mini_pearl_snowflake_ornament_kit.jpg",
+    "category": "christmas_bead_kit"
+  },
+  {
+    "sku": "XMAS-012",
+    "name": "1.75\" DIY Clear Plastic Ball Ornaments, 16pc. by Make Market®",
+    "price": 12.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/diy_clear_plastic_ball_ornaments.jpg",
+    "category": "christmas_ornament_base"
+  },
+  {
+    "sku": "XMAS-015",
+    "name": "3.5\" DIY Clear Plastic Snap Ball Ornaments, 12ct. by Make Market®",
+    "price": 19.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/diy_clear_plastic_snap_ball_ornaments.jpg",
+    "category": "christmas_ornament_base"
+  },
+  {
+    "sku": "XMAS-018",
+    "name": "3\" DIY Clear Glass Ball Ornaments, 8ct. by Make Market®",
+    "price": 9.99,
+    "margin": "medium",
+    "velocity": "medium",
+    "imageUrl": "/images/diy_clear_glass_ball_ornaments.jpg",
+    "category": "christmas_ornament_base"
+  },
+  {
+    "sku": "XMAS-019",
+    "name": "Clay Handprint Ornament Kit by Creatology™",
+    "price": 4.49,
+    "margin": "medium",
+    "velocity": "high",
+    "imageUrl": "/images/clay_handprint_ornament_kit.jpg",
+    "category": "christmas_craft_kit"
+  }
+]

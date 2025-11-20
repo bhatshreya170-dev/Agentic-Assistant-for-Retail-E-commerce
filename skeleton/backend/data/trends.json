@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Halloween",
+    "keywords": ["halloween", "spooky", "october"]
+  },
+  {
+    "name": "Christmas",
+    "keywords": ["christmas", "xmas", "holiday", "winter", "festive", "santa"]
+  },
+  {
+    "name": "Summer Fun",
+    "keywords": ["summer", "sunny", "beach", "vacation", "outdoors"]
+  }
+]
