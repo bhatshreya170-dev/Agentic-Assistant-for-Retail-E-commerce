@@ -214,7 +214,7 @@ def create_bundle_for_project(project_name: str) -> dict:
 
 
 # --- LangChain Orchestration ---
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
+llm = ChatGoogleGenerativeAI(model="${{ values.llmModel }}", temperature=0)
 
 tools = [get_trend, get_projects_for_trend, create_bundle_for_project]
 
