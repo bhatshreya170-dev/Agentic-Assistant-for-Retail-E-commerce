@@ -29,5 +29,5 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: ${{ values.owner | dump }}
-  definition:
-    $text: ./backend/openapi.yaml
+  # definition:
+  #   $text: ./backend/openapi.yaml
